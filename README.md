@@ -15,7 +15,7 @@ see the full [BOM on Octopart](https://octopart.com/bom-tool/Q3rQej3x)
 
 compatible disk image forthcoming.
 
-[monome.org](monome.org)
+[monome.org](https://monome.org)
 
 ![](images/norns-shield-pcb-bothsides.jpg)
 
