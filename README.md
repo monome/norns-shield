@@ -2,8 +2,6 @@
 
 ![](images/norns-shield-angle.jpg)
 
-_*BETA: we're close to proving this PCB, but we do not recommend you build one of these quite yet*_
-
 minimal/tiny open-source/DIY shield for Raspberry Pi boards, providing hardware compatibility with the [norns](monome.org/norns) ecosystem.
 
 - audio codec: CS4720
