@@ -184,7 +184,7 @@
 <hole x="81.5975" y="-20.6375" drill="2.8"/>
 <hole x="3.4925" y="-20.6375" drill="2.8"/>
 <text x="2.54" y="46.355" size="1.778" layer="21" ratio="15">norns/shield
-191021
+191106
 monome.org</text>
 <circle x="40.64" y="18.415" radius="0.3175" width="0.254" layer="22"/>
 <text x="71.12" y="25.4" size="1.27" layer="26" ratio="15" rot="MR0">TX</text>
