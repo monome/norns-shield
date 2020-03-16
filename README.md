@@ -15,11 +15,11 @@ see [https://llllllll.co/t/diy-norns-shield](https://llllllll.co/t/diy-norns-shi
 
 [monome.org](https://monome.org)
 
-SMD-populated PCB available from [monome.org](https://market.monome.org)
+full kit and SMD-populated PCB available from [monome.org](https://market.monome.org)
 
 ![](images/norns-shield.png)
 
-![](images/norns-shield-side.jpg)
+![](images/ns-kit-built.jpg)
 
 ## assembly
 
@@ -42,4 +42,30 @@ then attach the pi header to the other side and solder as shown.
 attach the screen to the top.
 
 check the forum thread above for the newest disk image.
+
+---
+
+![](images/assembly/ns-4.jpg)
+
+attach the shortest spacers with short screws, which props up the screen.
+
+![](images/assembly/ns-5.jpg)
+
+
+![](images/assembly/ns-6.jpg)
+
+
+![](images/assembly/ns-7.jpg)
+
+
+![](images/assembly/ns-8.jpg)
+
+
+
+## troubleshooting
+
+
+## notes
+
+
 
