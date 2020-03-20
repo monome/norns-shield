@@ -84,5 +84,14 @@ use [etcher](https://www.balena.io/etcher/) to make your SD card. it's by far th
 - the shield does not have a headphone output, but headphones work fine on the main output. the headphone gain level within the norns menu does nothing in this case.
 - the battery indication will not function, as there's no battery.
 
+## mechanicals
 
+
+- 2 Female Threaded Hex Standoff Aluminum, 3/16" Hex, 5/16" Long, 2-56 Thread 91780A104
+- 2 Female Threaded Hex Standoff Aluminum, 3/16" Hex, 5/8" Long, 2-56 Thread 91780A111
+- 2 Female Threaded Hex Standoff Aluminum, 3/16" Hex, 3/4" Long, 2-56 Thread 91780A113
+- 4 Male-Female Threaded Hex Standoff Aluminum, 3/16" Hex Size, 1/2" Long, 2-56 Thread Size 93505A213
+- 4 Off-White Nylon Unthreaded Spacer 1/4" OD, 3/32" Long, for Number 6 Screw Size 94639A247
+- 8 Black-Oxide 18-8 Stainless Steel Pan Head Phillips Screws 2-56 Thread, 1/4" Long 91249A050
+- 2 Black-Oxide 18-8 Stainless Steel Pan Head Phillips Screws 2-56 Thread, 3/8" Long 91249A054
 
