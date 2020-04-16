@@ -78,13 +78,16 @@ use [etcher](https://www.balena.io/etcher/) to make your SD card. it's by far th
 - most soldering problems can be solved simply by reheating solder joints. bad solders can result in various problems: screen doesn't turn on, knobs/keys don't work.
 - use a good SD card, not a cheap one. if you're having trouble, try using a different card.
 - be sure to use the correct power supply. the pi will not power well from a laptop and you'll get confusing errors. get a dedicated 2A USB supply, or very high output USB battery.
-- if your SD card seems a lot more full than it should be, you'll need to expand the filesystem:
-      - SSH into norns
-      - execute `sudo raspi-config`
-      - navigate to `Advanced` and hit RETURN
-      - select `expand filesystem` and hit RETURN
-      - lots of activity will happen. when it's done, power down and reboot. if you get any errors, reboot again.
-      - if you SSH back into norns and execute `df -h`, you'll see the newly expanded capacity.
+
+if your SD card seems a lot more full than it should be, you'll need to expand the filesystem:
+- open a terminal on a computer connected to the same network as your shield
+- execute: `ssh we@norns.local`
+- password: `sleep`
+- execute: `sudo raspi-config`
+- navigate to `Advanced` and hit RETURN
+- select `expand filesystem` and hit RETURN
+- lots of activity will happen. when it's done, power down and reboot. if you get any errors, reboot again.
+- if you SSH back into norns and execute `df -h`, you'll see the newly expanded capacity.
 
 ## notes
 
