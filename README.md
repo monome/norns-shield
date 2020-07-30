@@ -2,7 +2,7 @@
 
 ![](images/norns-shield-black.jpg)
 
-minimal/tiny open-source/DIY shield for Raspberry Pi boards, providing hardware compatibility with the [norns](https://monome.org/norns) ecosystem.
+minimal/tiny open-source/DIY shield for Raspberry Pi boards, providing hardware compatibility with the [norns](https://monome.org) ecosystem.
 
 - audio codec: CS4720
 - audio jacks: 3.5mm stereo in/out, line level
