@@ -68,7 +68,7 @@ attach the pi and add two plastic spacers, then balance the plate on top. the ho
 
 ## setting up
 
-get [this shield image from github](https://github.com/monome/norns-image/releases/download/200424/norns200424.tgz). *nb. image is only compatible with Raspberry Pi 3b+ and Pi 3b. Pi 4 is not supported out of the box. for more detail, see [this thread](https://llllllll.co/t/can-i-use-the-official-norns-shield-w-raspberry-pi-4/31072/3).*
+get [this shield image from github](https://github.com/monome/norns-image/releases/download/200106/norns200106-shield.img.zip). *nb. image is only compatible with Raspberry Pi 3b+ and Pi 3b. Pi 4 is not supported out of the box. for more detail, see [this thread](https://llllllll.co/t/can-i-use-the-official-norns-shield-w-raspberry-pi-4/31072/3).*
 
 use [etcher](https://www.balena.io/etcher/) to make your SD card. it's by far the most reliable method.
 
