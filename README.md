@@ -29,7 +29,7 @@ parts shown (header already soldered to OLED)
 
 ![](images/assembly/ns-0.jpg)
 
-first solder the OLED header. then the encoders, and keys.
+first solder the OLED header (make sure the orientation looks like the photo below, as we've had a few reports of folks placing their headers on the wrong side). then the encoders, and keys.
 
 ![](images/assembly/ns-1.jpg)
 
