@@ -4,7 +4,7 @@
 
 minimal/tiny open-source/DIY shield for Raspberry Pi boards, providing hardware compatibility with the [norns](https://monome.org) ecosystem.
 
-- audio codec: CS4720
+- audio codec: CS4270
 - audio jacks: 3.5mm stereo in/out, line level
 - OLED: NHD-2.7-12864WDW3
 - 3x pushbuttons, 3x rotary encoders
@@ -104,4 +104,3 @@ if your SD card seems a lot more full than it should be, you'll need to expand t
 - 4 Off-White Nylon Unthreaded Spacer 1/4" OD, 3/32" Long, for Number 6 Screw Size 94639A247
 - 8 Black-Oxide 18-8 Stainless Steel Pan Head Phillips Screws 2-56 Thread, 1/4" Long 91249A050
 - 2 Black-Oxide 18-8 Stainless Steel Pan Head Phillips Screws 2-56 Thread, 3/8" Long 91249A054
-
