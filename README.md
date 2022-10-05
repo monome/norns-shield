@@ -2,92 +2,48 @@
 
 ![](images/norns-shield-black.jpg)
 
-minimal/tiny open-source/DIY shield for Raspberry Pi boards, providing hardware compatibility with the [norns](https://monome.org) ecosystem.
+minimal/tiny open-source/DIY shield for Raspberry Pi boards, providing hardware compatibility with the [norns](https://monome.org/docs/norns) ecosystem. designed by monome (brian crabtree, aka @tehn).
 
-- audio codec: CS4270
+all discussion happens at [https://llllllll.co/t/norns-shield](https://llllllll.co/t/norns-shield).
+
+please be very aware that this project is no longer directly supported by [monome](monome.org). do not email us asking for build help or debugging. we also no longer sell boards or kits, we do not have leftovers laying around, and we do not provide repair services.
+
+## donate
+
+we've made these files freely available to further the exploration and design of new musical instruments. the shield relies on years of development, and we continue to maintain and evolve the platform. we hope you'll consider making a donation towards this effort.
+
+![](images/shield-postcard.jpg)
+
+order a hand-inked/painted robot-drawn [postcard](https://market.monome.org/products/shield-postcard) ($50) or direct donations via [paypal](https://paypal.me/tehn/20).
+
+
+## specifications
+
+- audio codec: CS4270 (or CS4271 on v211028)
 - audio jacks: 3.5mm stereo in/out, line level
 - OLED: NHD-2.7-12864WDW3
 - 3x pushbuttons, 3x rotary encoders
 
-see the full [BOM on Octopart](https://octopart.com/bom-tool/Q3rQej3x)
 
-see [https://llllllll.co/t/diy-norns-shield](https://llllllll.co/t/diy-norns-shield/27638) for discussion.
+## versions
 
-[monome.org](https://monome.org)
+there are three versions of the circuit:
 
-full kit and SMD-populated PCB available from [monome.org](https://market.monome.org)
+- 191106: original version
+- 210330: updated with more robust (through hole) audio jacks, better noise isolation
+- 211028: different codec (due to semiconductor shortages) which requires op amps and many many more passives
 
-![](images/norns-shield.png)
+we _highly_ recommend 210330 if you're building a new board, and we suggest pairing it with a pi 3B+. the Pi 4 will work with all of the above, but the wifi transciever is noisier and the physical footprint does not fit as well because the ethernet and USB ports were moved around. 
 
-![](images/ns-kit-built.jpg)
-
-## assembly
-
-for SMD-populated circuit.
-
-parts shown (header already soldered to OLED)
-
-![](images/assembly/ns-0.jpg)
-
-first solder the OLED header (make sure the orientation looks like the photo below, as we've had a few reports of folks placing their headers on the wrong side). then the encoders, and keys.
-
-![](images/assembly/ns-1.jpg)
-
-![](images/assembly/ns-2.jpg)
-
-then attach the pi header to the other side and solder as shown.
-
-![](images/assembly/ns-3.jpg)
-
-attach the screen to the top. note that you may have to apply substantial pressure for it to connect: put something hard on top of the header while applying pressure so you don't wreck your thumbs.
-
-likewise, attaching the keycaps requires substantial pressure. be sure they are aligned well then press hard.
-
-the knobs should go on easily in comparison.
-
----
-
-![](images/assembly/ns-4.jpg)
-
-attach the shortest spacers with short screws, which props up the screen.
-
-![](images/assembly/ns-5.jpg)
-
-four spacers with the male thread insert from the top. for the bottom, the long remaining spacers go in front, shorter in back as shown.
-
-![](images/assembly/ns-6.jpg)
-
-align the plate and attach with short screws. don't tighten the screws until you've aligned the keys and knobs, as there's a little wiggle room for fine tuning.
-
-![](images/assembly/ns-7.jpg)
-
-attach the pi and add two plastic spacers, then balance the plate on top. the holes with spacers need the two long screws, the front use short screws.
-
-![](images/assembly/ns-8.jpg)
-
-
-## setting up
-
-get [this shield image from github](https://github.com/monome/norns-image/releases/download/200106/norns200106-shield.img.zip). *nb. image is only compatible with Raspberry Pi 3b+ and Pi 3b. Pi 4 is not supported out of the box. for more detail, see [this thread](https://llllllll.co/t/can-i-use-the-official-norns-shield-w-raspberry-pi-4/31072/3).*
-
-use [etcher](https://www.balena.io/etcher/) to make your SD card. it's by far the most reliable method.
+all versions are provided here as reference for repairing existing boards.
 
 
 ## troubleshooting
 
+- if using a pi 4, you may need to cover these ports on the Pi 4 with electrical tape (something nonconductive) to prevent shorting if the assembly is squeezed tight.
 - most soldering problems can be solved simply by reheating solder joints. bad solders can result in various problems: screen doesn't turn on, knobs/keys don't work.
 - use a good SD card, not a cheap one. if you're having trouble, try using a different card.
 - be sure to use the correct power supply. the pi will not power well from a laptop and you'll get confusing errors. get a dedicated 2A USB supply, or very high output USB battery.
-
-if your SD card seems a lot more full than it should be, you'll need to expand the filesystem:
-- open a terminal on a computer connected to the same network as your shield
-- execute: `ssh we@norns.local`
-- password: `sleep`
-- execute: `sudo raspi-config`
-- navigate to `Advanced` and hit RETURN
-- select `expand filesystem` and hit RETURN
-- lots of activity will happen. when it's done, power down and reboot. if you get any errors, reboot again.
-- if you SSH back into norns and execute `df -h`, you'll see the newly expanded capacity.
 
 ## notes
 
