@@ -4,7 +4,7 @@
 
 minimal/tiny open-source/DIY shield for Raspberry Pi boards, providing hardware compatibility with the [norns](https://monome.org/docs/norns) ecosystem. designed by monome (brian crabtree, aka @tehn).
 
-all discussion happens at [https://llllllll.co/t/norns-shield](https://llllllll.co/t/norns-shield/38622).
+all discussion happens at [llllllll.co](https://llllllll.co/t/norns-shield-final/58810).
 
 please be very aware that this project is no longer directly supported by [monome](https://monome.org). do not email us asking for build help or debugging. we also no longer sell boards or kits, we do not have leftovers laying around, and we do not provide repair services.
 
@@ -14,7 +14,7 @@ we've made these files freely available to further the exploration and design of
 
 ![](images/shield-postcard.jpg)
 
-order a hand-inked/painted robot-drawn [postcard](https://market.monome.org/products/shield-postcard) ($50) or direct donations via [paypal](https://paypal.me/tehn/20).
+order a hand-inked/painted robot-drawn [postcard](https://market.monome.org/products/shield-postcard) ($50) or direct donations accepted via [paypal](https://paypal.me/tehn/20).
 
 
 ## specifications
