@@ -6,7 +6,7 @@ minimal/tiny open-source/DIY shield for Raspberry Pi boards, providing hardware 
 
 all discussion happens at [https://llllllll.co/t/norns-shield](https://llllllll.co/t/norns-shield/38622).
 
-please be very aware that this project is no longer directly supported by [monome](monome.org). do not email us asking for build help or debugging. we also no longer sell boards or kits, we do not have leftovers laying around, and we do not provide repair services.
+please be very aware that this project is no longer directly supported by [monome](https://monome.org). do not email us asking for build help or debugging. we also no longer sell boards or kits, we do not have leftovers laying around, and we do not provide repair services.
 
 ## donate
 
