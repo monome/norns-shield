@@ -40,7 +40,7 @@ all versions are provided here as reference for repairing existing boards.
 
 ## troubleshooting
 
-- if using a pi 4, you may need to cover these ports on the Pi 4 with electrical tape (something nonconductive) to prevent shorting if the assembly is squeezed tight.
+- if using a Pi 4, you may need to cover the top metal of the USB and ethernet ports on the Pi 4 with electrical tape (something nonconductive) to prevent shorting if the assembly is squeezed tight.
 - most soldering problems can be solved simply by reheating solder joints. bad solders can result in various problems: screen doesn't turn on, knobs/keys don't work.
 - use a good SD card, not a cheap one. if you're having trouble, try using a different card.
 - be sure to use the correct power supply. the pi will not power well from a laptop and you'll get confusing errors. get a dedicated 2A USB supply, or very high output USB battery.
