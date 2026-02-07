@@ -14,7 +14,7 @@ we've made these files freely available to further the exploration and design of
 
 ![](images/shield-postcard.jpg)
 
-order a hand-inked/painted robot-drawn [postcard](https://market.monome.org/products/shield-postcard) ($50) or direct donations accepted via [paypal](https://paypal.me/tehn/20).
+direct donations accepted via [paypal](https://paypal.me/tehn/20).
 
 
 ## specifications
